@@ -1,0 +1,76 @@
+{
+"projects": [
+    {
+        "title": "Indipick",
+        "category": "group-projects",
+        "description": "This is an app made as a project for Vilnius University (PSI), it allows users to better plan which studies they want to select and then provide a smooth experience to apply to those subjects.",
+        "tools": ["C#", "PostgreSQL", "As"],
+        "url": "https://github.com/lukassta/indipick",
+        "visible": true
+    },
+    {
+        "title": "Calendar",
+        "category": "group-projects",
+        "description": "[Coming soon]",
+        "tools": ["C++"],
+        "url": "https://github.com/gustassnet/",
+        "visible": true
+    },
+    {
+        "title": "Vector",
+        "category": "data-structures-algorithms",
+        "description": "Implementation of a vector data structure in C featuring automatic memory management, element insertion and removal, resizing and vector operations.",
+        "tools": ["C"],
+        "url": "https://github.com/gustassnet/data-structures/tree/main/vector",
+        "visible": true
+    },
+    {
+        "title": "Queue",
+        "category": "data-structures-algorithms",
+        "description": "A queue implementation in C using a circular singly linked list, supporting enqueue and dequeue operations, element lookup and dynamic memory management.",
+        "tools": ["C"],
+        "url": "https://github.com/gustassnet/data-structures/tree/main/queue",
+        "visible": true
+    },
+    {
+        "title": "Stack",
+        "category": "data-structures-algorithms",
+        "description": "An array-based stack implementation in C featuring push, pop, peek and stack state operations with fixed capacity.",
+        "tools": ["C"],
+        "url": "https://github.com/gustassnet/data-structures/tree/main/stack",
+        "visible": true
+    },
+    {
+        "title": "Graph Traversal",
+        "category": "data-structures-algorithms",
+        "description": "A graph traversal implementation in C using the Breadth-First Search (BFS) algorithm. Reads graphs from files and constructs a traversal tree using a queue.",
+        "tools": ["C"],
+        "url": "https://github.com/gustassnet/data-structures/tree/main/graph",
+        "visible": true
+    },
+    {
+        "title": "Numerical Methods",
+        "category": "other-projects",
+        "description": "Algorithms for solving mathematical problems.",
+        "tools": ["Python"],
+        "url": "https://github.com/gustassnet/nonlinear-equations",
+        "visible": true
+    },
+    {
+        "title": "Chess game",
+        "category": "other-projects",
+        "description": "Chess game developed in C++ featuring graphical rendering, piece movement, move validation, turn-based gameplay and check detection.",
+        "tools": ["C++", "Windows API", "GDI+"],
+        "url":"https://github.com/gustassnet/chess-game",
+        "visible": true
+    },
+    {
+        "title": "Traffic simulator",
+        "category": "other-projects",
+        "description": "Traffic intersection simulator developed in Java featuring vehicle movement, right-hand priority rules, collision avoidance and simulation state management.",
+        "tools": ["Java"],
+        "url":"https://github.com/gustassnet/traffic-simulator",
+        "visible": true
+    }
+]
+}
