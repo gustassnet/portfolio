@@ -5,15 +5,15 @@
         "category": "group-projects",
         "description": "This is an app made as a project for Vilnius University (PSI), it allows users to better plan which studies they want to select and then provide a smooth experience to apply to those subjects.",
         "tools": ["C#", "PostgreSQL", "As"],
-        "url": "https://github.com/lukassta/indipick",
+        "url": "https://github.com/gustassnet/indipick",
         "visible": true
     },
     {
         "title": "Calendar",
         "category": "group-projects",
-        "description": "[Coming soon]",
+        "description": "A team-developed calendar application built in C++ using object-oriented programming principles, featuring core calendar functionality and date management.",
         "tools": ["C++"],
-        "url": "https://github.com/gustassnet/",
+        "url": "https://github.com/gustassnet/calendar",
         "visible": true
     },
     {
