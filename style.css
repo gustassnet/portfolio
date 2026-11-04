@@ -1,0 +1,141 @@
+:root {
+    --background-color: #05070a;
+    --border-color: #252b33;
+    --text-style: "SF Mono", monospace;
+    --teal: #1cd6ac;
+    --text-color: #eef1f5;
+    --text-color-darker: #9aa4b2;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--text-style);
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+    width: 1000px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 56px;
+    color: var(--teal);
+    font-family: var(--text-style);
+}
+
+.name {
+    font-size: 18px;
+}
+
+.studies {
+    font-size: 16px;
+    color: var(--text-color-darker);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: var(--text-color-darker);
+    text-decoration: none;
+}
+
+.skills-container, .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-container li, .project-list div p {
+    color: var(--text-color-darker);
+}
+
+.skills-container div, .project-list div {
+    border: 5px solid var(--border-color);
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    width: 460px;
+}
+
+.skills-container div li {
+    display: inline-block;
+    border: 1px solid var(--teal);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.project-list div {
+    transition: background-color 0.3s ease;
+}
+
+.project-list div a {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid var(--teal);
+    border-radius: 8px;
+    color: var(--teal);
+    text-decoration: none;
+}
+
+.project-list div:hover {
+    border: 1px solid var(--teal);
+}
+
+.project-list div:hover h3{
+   color: var(--teal);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 25px;
+    color: var(--teal);
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--teal);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me p {
+    color: var(--text-color-darker);
+}
+
+
+.contacts p {
+    color: var(--text-color-darker);
+}
