@@ -18,3 +18,24 @@ fetch("projects.json")
         });
 
     });
+
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.intersectionRatio > 0.5) {
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+            });
+            document.querySelector(`nav a[href="#${entry.target.id}"]`).classList.add("active");
+        }
+    });
+}, {
+    threshold: 0.5
+});
+
+sections.forEach(section => {
+    observer.observe(section);
+});
